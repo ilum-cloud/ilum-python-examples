@@ -14,7 +14,7 @@ class MatchAirportsWithCountries(IlumJob):
         country = str(config.get('country'))
 
     # Retrive save parameter from the config
-        save = bool(config.get('save'))
+        save = config.get('save').lower() == 'true'
 
     # Initialize SedonaContext
         SedonaContext.create(spark)
@@ -62,4 +62,3 @@ class MatchAirportsWithCountries(IlumJob):
     # Extract the num_airports and return it
         num_airports = singleresult.first().airports_count
         return f"Data processing finished successfully.\nIn {country} there are {num_airports} airports."
-
