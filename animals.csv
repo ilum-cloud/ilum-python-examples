@@ -4,8 +4,8 @@ id,owner_id,specie_id,animal_name,gender,birth_date,color,size,weight
 3,3,3,Bruno,Female,09/21/2020,Brown,Medium,8 kg
 4,4,4,Nutella,Female,09/22/2019,Orange,Small,0.5 kg
 5,5,5,Frito,Male,09/20/2022,Black,Large,30 kg
-6,6,N/A,N/A,Male,02/26/2015,N/A,N/A,N/A
-7,,6,Ponyo,Male,06/18/2022,Blue,Small,0.2 kg
+6,6,13,N/A,Male,02/26/2015,N/A,N/A,N/A
+7,21,6,Ponyo,Male,06/18/2022,Blue,Small,0.2 kg
 8,1,7,Niff,Male,10/27/2023,Yellow,Medium,0.5 kg
 9,2,8,Yarni,Female,06/21/2014,White,Medium,7 kg
 10,2,9,Dogo,Female,07/28/2014,Brown,Large,10 kg
@@ -58,7 +58,7 @@ id,owner_id,specie_id,animal_name,gender,birth_date,color,size,weight
 57,22,24,Shelly,Female,09/28/2023,Green,Large,10 kg
 58,7,25,Hoppy,Female,01/30/2018,Green,Small,0.1 kg
 59,8,26,Croak,Male,01/06/2014,Brown,Medium,0.5 kg
-60,6,,Salamander,Female,12/19/2012,Black,Large,2 kg
+60,6,21,Salamander,Female,12/19/2012,Black,Large,2 kg
 61,5,14,Leo,Male,03/26/2023,White,Small,2 kg
 62,11,2,Simba,Female,12/12/2017,White,Small,5 kg
 63,18,4,Milo,Male,02/13/2013,Orange,Small,0.5 kg
